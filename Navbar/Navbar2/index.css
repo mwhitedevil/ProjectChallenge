@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAD3C8;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#6D214F;
+    color:#ced6e0;
+    height: 50px;
+}
+nav .logo{
+    display: block;
+    margin-left: 10px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    margin-inline: 11px;
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+nav ul li a:hover{
+    color: #ff9f1a;
+    border-bottom:  2px solid white;
+}
+.btn{
+    padding: 5px 20px;
+    background: #227093;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
