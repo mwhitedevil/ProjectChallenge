@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: orange;
+    color: aliceblue;
+
+}
+
+.logo {
+    font-size: 18px;
+    display: block;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 25px;
+
+
+
+}
+
+.card-detail {
+    width: 350px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(235, 237, 237);
+
+
+}
+
+.card-detail p {
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-detail img {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.card button {
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: orange;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#num {
+    text-align: center;
+}
+
+#cardiocn {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    width: 150px;
+    border: 2px solid black;
+    color: red;
+}
+#cardiocn img{
+    width: 100px;
+}
