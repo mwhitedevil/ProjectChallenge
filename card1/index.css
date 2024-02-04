@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+
+.card-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+   
+}
+.card{
+    width: 350px;
+    height: 450px;
+    background-color: aliceblue;
+    margin-inline: 25px;
+    padding: 25px;
+    transition: all 1.1s;  
+    margin-top: 50px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 100%;
+
+
+}
+.card h1,p{
+    text-align: center;
+}
+.card button{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(217, 53, 53);
+    color: aliceblue;
+    margin: 60px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+}
